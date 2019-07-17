@@ -4,11 +4,11 @@ line_cmd_cheatsheet
 # Docker Hub
 Docker Syntax	                    Description
 ```
-docker search <searchterm>	      Search Docker Hub for images.
+docker search <searchterm>        Search Docker Hub for images.
 docker pull <user/image>          Downloads an image from Docker Hub.
-docker login	                    Authenticate to Docker Hub
+docker login                      Authenticate to Docker Hub
                                   (or other Docker registry).
-docker push <user/image>        	Uploads an image to Docker Hub.
+docker push <user/image>          Uploads an image to Docker Hub.
                                   You must be authenticated to run this command.
 ```
 # Image and Container InformationPermalink
