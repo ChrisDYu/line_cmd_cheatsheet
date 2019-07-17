@@ -1,24 +1,9 @@
 # line_cmd_cheatsheet
 # docker, git line command cheatsheet
 
-Docker Commands Quick Reference Cheat Sheet
-Updated Tuesday, December 18, 2018 by LinodeWritten by Linode
-
-Use promo code DOCS10 for $10 credit on a new account.
- Contribute on GitHubReport an Issue | View File | Edit File
-Docker Commands Quick Reference Cheat Sheet
-
-Docker is becoming increasingly popular among software developers, operators and enterprises as a software container platform. Containers package software in a format that can run isolated on a host operating system. Bundled with only essential libraries and settings, Docker renders lightweight, efficient, self-contained systems that run identically wherever deployed.
-
-Optimizing the platform’s functionality begins with mastery of the core Docker commands. This cheat sheet is a reference for the most basic Docker commands that address installation, Hub interaction, and working with containers and images.
-
-As of this writing, the recommended Docker installation is Docker Community Edition (Docker CE). See the official docs or our How to Install Docker guide for more details.
-
-Note
-If you have not added your limited user account to the docker group (with sudo usermod -aG docker username), all of the commands in this cheatsheet will need to be run with sudo.
 Docker HubPermalink
-Docker Syntax	Description
-docker search searchterm	Search Docker Hub for images.
+Docker Syntax	                  Description
+docker search searchterm	       Search Docker Hub for images.
 docker pull user/image	Downloads an image from Docker Hub.
 docker login	Authenticate to Docker Hub
 (or other Docker registry).
