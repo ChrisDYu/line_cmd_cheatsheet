@@ -52,3 +52,35 @@ docker build -t sampleuser/ubuntu.        Builds a Docker image
                                           in the current directory.
 docker load                               Loads an image from file.
 ```
+
+
+# Git CLI
+```
+git branch				# check work branch
+git checkout -b <branch name>		# create a new branch new name locally
+git checkout <branch name>		# swich to local work branch
+git branch -D <branch name>		# delete a branch
+git status 				# show local changes
+git diff <file path $ names>		# show file content changes
+git checkout <file path & name>		# undo all the file changes(cannot be recovered)
+git reset --soft <commit bash>		# unstage commit
+git reset --hard <commit bash>		# remove al local changes made (Cannot be undone)
+git log					# show branch commit history
+git branch -m <old> <new>		# rename a old branch to new
+git branch -a				# list all branchs
+ git branch -r				# list remote branches
+git show-branch				# see the branches and their commites
+
+git pull config pull.rebase false	# merge
+git pull config pull.rebase true	# rebase
+git pull config pull.ff only		# fast-forward only
+git add
+git commit -m "some messages"
+git push
+```
+
+# Run a program at background
+```
+nohup <exec> > <file.txt> &
+tail -f <file.txt>        <or>      tail -n <number> <file.txt>
+```
